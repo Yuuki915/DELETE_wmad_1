@@ -20,6 +20,10 @@ let students = [
     {name : 'Alex', score1 : 44, score2 : 45},
 ];
 
+
+let abc = ['hi', 'hoi'];
+console.log(abc[0], [1]);
+
 // 2
 let degrees = ['A', 'B', 'C', 'D', 'E'];
 let passingLimits = [91, 81, 71, 61, 51];
@@ -51,3 +55,27 @@ function totalScore(){
     }
 }
 totalScore();
+
+
+
+
+
+//Show size of the building plot
+
+function showPlotSize(){
+    var width = 3;
+    var height = 2;
+    return 'Area: ' + (width * height);
+}
+var msg = showPlotSize();
+
+
+let o = "17";
+let k = 2;
+k+o;
+console.log(k+o);
+
+
+let xi = 1 + "2" + 4 + 2;
+
+console.log(xi);
