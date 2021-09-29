@@ -29,6 +29,7 @@
             }
             return isSortedAsc(arr) || isSortedDesc(arr);
         }
+        
         console.log('---------------------');
         console.log(isSorted([]));
         console.log(isSorted([42]));
